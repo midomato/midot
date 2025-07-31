@@ -1,6 +1,6 @@
 'use client';
 
-import { Facebook, Mail, Twitter } from 'lucide-react';
+import { Facebook, Mail, } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
@@ -38,7 +38,7 @@ export default function ShareButtons({ tags }: { tags: string[] }) {
             rel="noopener noreferrer"
             className="bg-black text-white w-12 h-12 flex items-center justify-center rounded-full hover:scale-105 transition"
         >
-            <Twitter className="w-6 h-6" />
+            <img src="/main/x_share.jpg" alt="X" width={36} height={36} className="rounded-md"/>
         </a>
 
         {/* Facebook */}
@@ -55,9 +55,9 @@ export default function ShareButtons({ tags }: { tags: string[] }) {
             href={`https://social-plugins.line.me/lineit/share?url=${encodedUrl}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#06C755] w-12 h-12 flex items-center justify-center rounded-full hover:scale-105 transition"
+            className="bg-[#22BA4F] w-12 h-12 flex items-center justify-center rounded-full hover:scale-105 transition"
         >
-            <img src="/blog/line_share.png" alt="LINE" width={24} height={24} />
+            <img src="/main/line_share.webp" alt="LINE" width={32} height={32} className='rounded-md'/>
         </a>
         {/* メール */}
         <a

@@ -1,7 +1,7 @@
 ---
 title: "【お知らせ】全体的にサイトを更新しました"
 date: "2025-06-11"
-thumbnail: "test.webp"
+thumbnail: "news.jpg"
 tag: ["news"]
 ---
 
