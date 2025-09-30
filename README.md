@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Midot ver3.0.0🍅
 
-## Getting Started
+プロジェクト **midot** は長い年月を得て、ついに集大成としての変貌を遂げました。
 
-First, run the development server:
+テーマは「**安らぎを運ぶ風と共に**」
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+現代社会では情報交換が風のごとく行われています。そんな風たちの安らぎになるような場所をイメージして創りました。ベース部分は Linux mint を参考にしています。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 機能の変更点
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- midot ver2.0.0 よりも安らぎ感を出しました。
+- アイコンの微調整
+- ホームページの大部分を変更
+- その他デザインを一新
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 技術スタック
 
-## Learn More
+- React ー JSX マークアップで構築されるフレームワーク
+- Next.js ー React ベースのフレームワーク
+- Vercel ー 静的サイトおよびクラウドプラットフォーム
+- Supabase ー 最近話題のフルスタックバックエンドサービス
 
-To learn more about Next.js, take a look at the following resources:
+## 著作権および利用規約
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+本リポジトリおよび Midot ウェブサイトに含まれるコンテンツ（テキスト、コード、画像、デザイン等を含みますが、これらに限りません）は Midot に帰属し、著作権法その他の法令によって保護されています。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+禁止事項
 
-## Deploy on Vercel
+- 本プロジェクトの全部または一部を無断で複製、改変、再配布、商用利用すること。
+- 明示的な許可なく、本プロジェクトの内容を AI 学習や自動データ収集、派生作品の作成に利用すること。
+- Midot の商標、ロゴ、その他のブランド要素を無断で使用すること。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+許可される利用
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 個人的または教育目的での閲覧や参照。
+- 上記以外の利用については、事前に Midot の書面による許可が必要です。
+
+免責事項
+
+本プロジェクトおよびその内容は「現状有姿」で提供され、明示または黙示を問わずいかなる保証も行いません。Midot は、本プロジェクトの利用により生じたいかなる損害についても責任を負いません。
+
+_© 2025 Midot. All rights reserved._
