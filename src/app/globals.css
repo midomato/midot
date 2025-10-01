@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+/* 全体のスクロールバー */
+::-webkit-scrollbar {
+  width: 0.6em; /* 横幅 */
+  height: 8px; /* 横スクロールバーの高さ */
+}
+
+/* スクロールバーの軌道部分 */
+::-webkit-scrollbar-track {
+  background: transparent; /* 軌道を透明に */
+}
+
+/* スクロールバーのつまみ部分 */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #22d3ee, #5e24ff); /* グラデーション */
+  border-radius: 10px;
+}
+
+/* つまみに hover したとき */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0ee995, #039671);
+}
