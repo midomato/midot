@@ -1,7 +1,13 @@
+import TweetButton from "../organisms/TweetButton";
+
 export default function Header() {
   return (
-    <header className="size-24 rounded-full bg-conic-180 from-indigo-600 via-indigo-50 to-indigo-600">
-      <h1>ヘッダー</h1>
+    <header className="flex gap-10 h-20 bg-red-400">
+      <span>ホーム</span>
+      <span>プロフィール</span>
+      <span>ブログ</span>
+      <span>成果物</span>
+      <TweetButton />
     </header>
   );
 }

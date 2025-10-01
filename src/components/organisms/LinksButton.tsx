@@ -6,7 +6,7 @@ import { FaRssSquare } from "react-icons/fa";
 
 export default function LinksButton() {
   return (
-    <div className="flex bg-gray-900 p-3 m-3 gap-4">
+    <div className="group flex rounded-2xl bg-gray-900 p-3 gap-4">
       <a
         href="https://x.com/botjanaiyoda"
         target="_blank"
