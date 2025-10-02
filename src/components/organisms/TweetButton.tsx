@@ -11,7 +11,7 @@ export default function TweetButton() {
       active:translate-y-1  active:[box-shadow:0_0px_0_0_#364153,0_0px_0_0_#4A556541]
       active:border-b-[1px]
       hover:[box-shadow:0_1px_2_2_#364153,0_1px_20_8_#4A556541]
-      transition-all duration-150 [box-shadow:0_1px_2_2_#364153,0_1px_20_10_#4A556541]
+      transition-all duration-150 [box-shadow:0_0px_2_3_#364153,0_1px_20_10_#4A556541]
       rounded-full  border-[1px] border-gray-800"
     >
       <FaXTwitter color="white" className="block group-hover:hidden" />

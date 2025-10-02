@@ -1,4 +1,5 @@
 import TweetButton from "../organisms/TweetButton";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
                 bg-gradient-to-br from-white/60 via-cyan-800/30 to-gray-400/30
                 backdrop-blur-sm shadow-lg shadow-blue-500/10 text-white font-bold"
     >
+      <Image src="/images/midot.png" alt="Midot" width={0} height={0} />
       <a
         href="/"
         className="shadow-blue-950/90 shadow-lg w-20 rounded-3xl flex items-center justify-center"
@@ -15,13 +17,13 @@ export default function Header() {
       </a>
       <a
         href="/profile"
-        className="shadow-blue-950/90 shadow-lg w-20 rounded-3xl flex items-center justify-center"
+        className="shadow-blue-950/90 shadow-lg w-30 rounded-3xl flex items-center justify-center"
       >
         プロフィール
       </a>
       <a
         href="/posts"
-        className="shadow-blue-950/80 shadow-lg w-20 rounded-3xl flex items-center justify-center"
+        className="shadow-blue-950/90 shadow-lg w-20 rounded-3xl flex items-center justify-center"
       >
         ブログ
       </a>
