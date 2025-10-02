@@ -6,13 +6,13 @@ import { FaRssSquare } from "react-icons/fa";
 
 export default function LinksButton() {
   return (
-    <div className="group flex rounded-2xl bg-gray-900 p-3 gap-4">
+    <div className="flex rounded-2xl bg-gray-900 p-3 gap-4">
       <a
         href="https://x.com/botjanaiyoda"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaXTwitter color="white" size="2em" />
+        <FaXTwitter color="white" size="2em" className="hover:blur-xl" />
       </a>
       <a
         href="https://github.com/midomato"
