@@ -7,11 +7,7 @@ draft: false
 
 # はじめに
 
-これは **hello-world** ポストのサンプルです。
-
-画像の例（public/images に置く）:
-
-段落のあとにコード:
+md ファイル対応ないす
 
 ```ts
 export function add(a: number, b: number) {

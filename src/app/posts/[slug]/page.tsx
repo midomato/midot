@@ -17,6 +17,7 @@ export async function generateStaticParams() {
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
   const post: Post = await getPostBySlug(slug);
+  console.log(post);
 
   return (
     <article className="prose mx-auto py-8">
