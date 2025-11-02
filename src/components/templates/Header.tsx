@@ -1,10 +1,9 @@
 import TweetButton from "../organisms/TweetButton";
-import Image from "next/image";
 
 export default function Header() {
   return (
     <header
-      className="flex fixed top-2 gap-10 w-full h-25 z-100 p-6 rounded-4xl 
+      className="flex fixed top-2 gap-10 h-25 z-99 p-6 rounded-4xl
                 bg-gradient-to-br from-white/60 via-cyan-800/30 to-gray-400/30
                 backdrop-blur-sm shadow-lg shadow-blue-500/10 text-white font-bold"
     >
