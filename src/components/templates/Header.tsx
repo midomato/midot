@@ -4,17 +4,10 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header
-      className="flex top-3 gap-10 w-full h-25 z-100 p-6 rounded-4xl 
+      className="flex fixed top-2 gap-10 w-full h-25 z-100 p-6 rounded-4xl 
                 bg-gradient-to-br from-white/60 via-cyan-800/30 to-gray-400/30
                 backdrop-blur-sm shadow-lg shadow-blue-500/10 text-white font-bold"
     >
-      <Image
-        src="/images/midot.png"
-        alt="Midot"
-        width={70}
-        height={10}
-        className="mr-100"
-      />
       <a
         href="/"
         className="shadow-blue-950/90 shadow-lg w-20 rounded-3xl flex items-center justify-center"

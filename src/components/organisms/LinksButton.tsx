@@ -12,7 +12,7 @@ export default function LinksButton() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaXTwitter color="white" size="2em" className="hover:blur-xl" />
+        <FaXTwitter color="white" size="2em" />
       </a>
       <a
         href="https://github.com/midomato"

@@ -8,9 +8,9 @@ export default function Footer() {
       <Ship />
       <footer className="flex flex-col h-100 bg-gray-800">
         <div className="flex p-3">
-          <div className="md:flex-3 bg-amber-300"></div>
-          <div className="md:flex-3 bg-amber-200"></div>
-          <div className="flex-3 bg-red-300"></div>
+          <div className="md:flex-3 "></div>
+          <div className="md:flex-3 "></div>
+          <div className="flex-3"></div>
           <LinksButton />
         </div>
         <div className="relative mt-auto w-full">

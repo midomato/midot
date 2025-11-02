@@ -12,12 +12,13 @@
 }
 
 /* スクロールバーのつまみ部分 */
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #22d3ee, #5e24ff);
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #22d3ee, #24f8ff);
   border-radius: 10px;
 }
 
 /* つまみに hover したとき */
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #0ee995, #039671);
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0ee995, #7ad6bf);
+  border-radius: 10px;
 }

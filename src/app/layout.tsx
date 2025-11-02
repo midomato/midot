@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "midot",
-  description: "安らぎを運ぶ風",
+  description: "謙虚に大胆",
 };
 
 export default function RootLayout({
