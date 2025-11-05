@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Seikabutu() {
   return (
     <>
-      <p>せいかせいかいせいかせいあか</p>
+      <h1>成果物</h1>
     </>
   );
 }

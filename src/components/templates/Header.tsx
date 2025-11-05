@@ -14,7 +14,7 @@ export default function Header() {
         ホーム
       </a>
       <a
-        href="/profile"
+        href="#profile"
         className="shadow-blue-950/90 shadow-lg w-30 rounded-3xl flex items-center justify-center"
       >
         プロフィール

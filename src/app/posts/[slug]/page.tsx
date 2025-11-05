@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github.css";
+import "./blog.css";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -21,9 +22,11 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <article className="prose mx-auto py-8">
-      <h1>{post.meta.title ?? slug}</h1>
+      <div className="font-bold text-4xl">{post.meta.title ?? slug}</div>
       {post.meta.date && (
-        <time>{new Date(post.meta.date).toLocaleDateString()}</time>
+        <time className="text-gray-600">
+          {new Date(post.meta.date).toLocaleDateString()}
+        </time>
       )}
       <div>
         <ReactMarkdown

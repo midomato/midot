@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Loading from "@/components/templates/Loading";
 import Header from "@/components/templates/Header";
+import "@fontsource/great-vibes";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,8 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
         <Loading />
+        <Header />
+        <div className="mt-30" />
         {children}
       </body>
     </html>

@@ -10,9 +10,11 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@fontsource/great-vibes": "^5.2.8",
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
     "@react-three/postprocessing": "^3.0.4",
+    "framer-motion": "^12.23.24",
     "gray-matter": "^4.0.3",
     "meshline": "^3.3.1",
     "next": "15.5.4",

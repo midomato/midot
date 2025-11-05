@@ -1,11 +1,11 @@
-import TweetButton from "../organisms/TweetButton";
+import Title from "../organisms/Title";
+import Profile from "../organisms/Profile";
 
 export default function Main() {
   return (
     <main>
-      <div className="flex items-center bg-white justify-center h-600 text-black">
-        <TweetButton />
-      </div>
+      <Title />
+      <Profile />
     </main>
   );
 }
