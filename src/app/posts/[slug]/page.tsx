@@ -21,7 +21,7 @@ export default async function PostPage({ params }: Props) {
   console.log(post);
 
   return (
-    <article className="prose mx-auto py-8">
+    <article className="prose mx-auto max-w-xl py-8">
       <div className="font-bold text-4xl">{post.meta.title ?? slug}</div>
       {post.meta.date && (
         <time className="text-gray-600">

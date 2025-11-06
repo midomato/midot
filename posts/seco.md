@@ -4,4 +4,10 @@ date: "2025-10-03"
 tags: ["nextjs", "markdown", "tutorial"]
 ---
 
-あ
+## あ
+
+```py
+int a
+def aaa():
+    print(a)
+```

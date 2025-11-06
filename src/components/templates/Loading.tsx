@@ -31,7 +31,7 @@ export default function Loading() {
         priority
         className="z-10"
       />
-      <div className="absolute translate-y-[110px] flex gap-20 z-11">
+      <div className="absolute translate-y-[100px] flex gap-20 z-11">
         <div className="w-10 h-10 bg-black rounded-full" />
         <div className="w-7 h-7 bg-black rounded-full" />
       </div>
