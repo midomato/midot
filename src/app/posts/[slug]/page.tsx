@@ -22,13 +22,13 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <article className="prose mx-auto max-w-xl py-8">
-      <div className="font-bold text-4xl">{post.meta.title ?? slug}</div>
+      <div className="font-bold text-5xl">{post.meta.title ?? slug}</div>
       {post.meta.date && (
         <time className="text-gray-600">
           {new Date(post.meta.date).toLocaleDateString()}
         </time>
       )}
-      <div>
+      <div className="mt-10">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeHighlight]}

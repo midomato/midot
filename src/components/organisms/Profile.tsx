@@ -12,7 +12,7 @@ export default function Profile() {
           viewport={{ once: true, amount: 0.3 }} // once:1回だけ / amount:30%見えたら発火
           className="p-6 text-black font-bold text-4xl"
         >
-          自己紹介
+          Profile
         </motion.div>
       </div>
     </>
